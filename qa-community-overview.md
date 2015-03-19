@@ -40,8 +40,6 @@ People and Teams
     <img src="img/pitt.jpeg" height="130px" width="130px" border="1px">
 </div>
 
-
-
 --
 
 ### When and how do we communicate?
@@ -50,12 +48,11 @@ People and Teams
 
 #### Global
 
-* Mythoughtworks
+* [Testing Community](https://my.thoughtworks.com/groups/testing)
 
 #### China
 
-* chinatestlab
-* Wechat
+* [chinatestlab](https://my.thoughtworks.com/groups/chinatestlab)
 
 --
 
@@ -67,7 +64,24 @@ People and Teams
 * Face-to-Face talk
 * Pairing learning
 * Trello board
-* Wechat
+
+--
+
+#### Follow us
+
+* [Github Organisation](https://github.com/twqa)
+
+--
+
+#### Wechat China
+
+![China](img/twqachina.png)
+
+--
+
+#### Wechat Chengdu
+
+![Chengdu](img/cdqa.png)
 
 --
 
