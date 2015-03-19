@@ -5,10 +5,10 @@
 2. Install cleaver by `npm install -g cleaver`
 
 ## How to generate the html file?
-`cleaver qa-community-overview.md`
+`cleaver md/qa-community-overview.md`
 
 ## How to view the document?
-Open tw-chengdu-qa.html in any browser
+Open md/index.html in any browser
 
 ## How to edit in markdown language?
 [Markdown Syntax](http://wowubuntu.com/markdown/)

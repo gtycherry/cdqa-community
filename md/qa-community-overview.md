@@ -1,5 +1,5 @@
 title: TW Chengdu QA Community
-output: tw-chengdu-qa.html
+output: index.html
 controls: true
 
 --
