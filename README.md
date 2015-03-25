@@ -8,7 +8,7 @@
 `cleaver md/qa-community-overview.md`
 
 ## How to view the document?
-Open md/index.html in any browser
+Open index.html in any browser
 
 ## How to edit in markdown language?
 [Markdown Syntax](http://wowubuntu.com/markdown/)
