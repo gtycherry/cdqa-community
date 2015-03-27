@@ -1,10 +1,11 @@
-title: TW Chengdu QA Community
+title: TW Chengdu QA Community Introduciton
 output: index.html
 controls: true
 
 --
 
-# Welcome to TW!
+# Welcome 
+## To Chengdu QA Community
 ## A first look at the QA family you're joining
 
 --
@@ -12,8 +13,6 @@ controls: true
 ### A list of things
 
 * Who are we?
-* When and how do we communicate?
-* How do I get started?
 * Conference and events
 * 2015 Plan
 * Actions 
@@ -22,53 +21,29 @@ controls: true
 
 ### Who are we?
 
-People and Teams
-
---
-
-### Your Photo!!
-
+Members:
 <link rel="stylesheet" href="css/lightbox.css">
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/lightbox.js"></script>
 <section id="examples" class="examples-section">
-    <div class="aligncenter">        
+    <div class="lb-aligncenter">        
         <div class="image-row">
-            <a class="example-image-link" href="img/members.jpg" data-lightbox="example-2" data-title="Ke Xiang"><img class="example-image" src="img/members.jpg" height="400" width="300" /></a>
+            <img class="example-image" src="img/members.jpg" height="400px" width="300px" /></a>
         </div>
     </div>
 </section>
 
 --
 
-### When and how do we communicate?
+#### Conference and events
 
---
-
-#### Global
-
-* [Testing Community](https://my.thoughtworks.com/groups/testing)
-
-#### China
-
-* [chinatestlab](https://my.thoughtworks.com/groups/chinatestlab)
-
---
-
-#### Chengdu
-
+* BQ Conf
 * Weekly QA lunch
 * Monthly QA Dinner
 * Reading Club
 * Face-to-Face talk
 * Pairing learning
 * Trello board
-
---
-
-#### Follow us
-
-* [Github Organisation](https://github.com/twqa)
 
 --
 
@@ -139,14 +114,3 @@ People and Teams
 * Internal Rampup and Trainings
 * Capability Radar
 * Innovations
-
---
-
-### Actions?
-
-* Seek for pair of QA Community - Xu Xiao
-* QA Capability items & metrics - An Hui
-* People development opportunity - Ke Xiang
-* Github repo - Wuyi Qin
-* New hire training - Fu Biao
-
