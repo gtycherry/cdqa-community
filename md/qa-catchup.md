@@ -34,3 +34,8 @@ controls: true
 	- (Maybe)Gatling Workshop - Bowen
 
 --
+
+### 9 April 2015
+
+* Reading club
+	- Zhangying will send Jinshujv to make sure reading time and more details
