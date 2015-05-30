@@ -39,3 +39,11 @@ controls: true
 
 * Reading club
 	- Zhangying will send Jinshujv to make sure reading time and more details
+
+### 28 May 2015
+
+* Discussed about the QA capability uplifting PPT (can be found under Presentation)
+* Action item
+  - Draw the capability spider graph (owner: all)
+  - Set the 3 month learning goal and display the goal in spider graph (owner: all)
+  - Review the spider graph and 3 month goal in next catch up meeting
