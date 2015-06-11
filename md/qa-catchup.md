@@ -47,3 +47,14 @@ controls: true
   - Draw the capability spider graph (owner: all)
   - Set the 3 month learning goal and display the goal in spider graph (owner: all)
   - Review the spider graph and 3 month goal in next catch up meeting
+
+### 11 June 2015
+
+* Discussed about BQConf logistics
+* Action item
+  - Zhang Xiao and Yu Di will pair to organise the BQConf.
+  - Zhang Xiao and Yu Di will update the BQConf trello wall and assign tasks.
+  - Support the BQConf work, detail plan will be shared by Yu Di & Zhang Xiao later (Owner: all)
+  - Fu Biao will pair with Liu Ran to prepare the BQConf topic (Test model in CI)
+  - Yao Hu will prepare the backup topic (RST)
+  - Bowen will prepare the backup topic (Automation in Quality Assurance system)
