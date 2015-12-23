@@ -40,6 +40,8 @@ controls: true
 * Reading club
 	- Zhangying will send Jinshujv to make sure reading time and more details
 
+--
+
 ### 28 May 2015
 
 * Discussed about the QA capability uplifting PPT (can be found under Presentation)
@@ -47,6 +49,8 @@ controls: true
   - Draw the capability spider graph (owner: all)
   - Set the 3 month learning goal and display the goal in spider graph (owner: all)
   - Review the spider graph and 3 month goal in next catch up meeting
+
+--
 
 ### 11 June 2015
 
@@ -58,3 +62,15 @@ controls: true
   - Fu Biao will pair with Liu Ran to prepare the BQConf topic (Test model in CI)
   - Yao Hu will prepare the backup topic (RST)
   - Bowen will prepare the backup topic (Automation in Quality Assurance system)
+
+--
+
+### 23 December 2015
+
+* Discussed about Catchup optimization
+* Action item
+  - Catchup will be held every two weeks.
+  - Catchup will take one hour every time.
+	- Reading sharing is merged with Catchup, sharing owner ordered by Zhangying's mail.
+	- Before catchup, owner send invitation with agenda.
+	- Catchup contents: Reading sharing/ Rising puzzle / Gossip / Community uplifting.
