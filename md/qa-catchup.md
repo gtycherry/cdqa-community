@@ -71,6 +71,6 @@ controls: true
 * Action item
   - Catchup will be held every two weeks.
   - Catchup will take one hour every time.
-	- Reading sharing is merged with Catchup, sharing owner ordered by Zhangying's mail.
-	- Before catchup, owner send invitation with agenda.
-	- Catchup contents: Reading sharing/ Rising puzzle / Gossip / Community uplifting.
+  - Reading sharing is merged with Catchup, sharing owner ordered by Zhangying's mail.
+  - Before catchup, owner send invitation with agenda.
+  - Catchup contents: Reading sharing/ Rising puzzle / Gossip / Community uplifting.
