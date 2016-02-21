@@ -16,7 +16,7 @@
 [入门](http://www.cnblogs.com/shanyou/archive/2012/05/12/2496959.html)
 * 了解HTTP
 [入门](http://www.cnblogs.com/linzheng/archive/2011/01/25/1944914.html)
-> 请熟悉POSTMAN或是http requester的使用，这是要写API level 自动化测试的基础
+请熟悉POSTMAN或是http requester的使用，这是要写API level 自动化测试的基础
 * 了解构建工具
  1. maven
     [材料1](http://juvenshun.iteye.com/blog/359256)
