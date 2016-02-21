@@ -45,8 +45,8 @@
   * [story card flow](http://www.scrumcn.com/agile/scrum/5006.html) 
   * [TDD](http://www.ibm.com/developerworks/cn/linux/l-tdd/)
 * \* 持续集成 [wiki](https://en.wikipedia.org/wiki/Continuous_integration)
-     * Jenkins [
-       * 官网](http://jenkins-ci.org/) 
+     * Jenkins 
+       * [官网](http://jenkins-ci.org/) 
        * [官方教程](https://wiki.jenkins-ci.org/display/JENKINS/Home)
 
 ***
