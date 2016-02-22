@@ -68,8 +68,8 @@
 * 非功能性测试
   * 性能测试 负载测试 压力测试 [概念](http://www.cnitblog.com/xijia0524/archive/2008/09/21/36298.html)
   * 性能测试工具
-    ** Jmeter [官网](http://jmeter.apache.org/)
-    ** Gatling [官网](http://www.infoq.com/cn/articles/new-generation-server-testing-tool-gatling/)
+    * Jmeter [官网](http://jmeter.apache.org/)
+    * Gatling [官网](http://www.infoq.com/cn/articles/new-generation-server-testing-tool-gatling/)
   * 安全测试 [渗透测试](http://baike.baidu.com/link?url=DSYiIEWnIX0lroGmgQmVi2Wofjyx0M_S3sADGu0SnwBRMn-OonhGrGA3zygJxU4D5we7y_skkBLcptZps6BFRq)
 
 ***
