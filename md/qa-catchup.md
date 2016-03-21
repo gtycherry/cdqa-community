@@ -9,7 +9,7 @@ controls: true
 --
 
 ### 21 March 2016
-* Updated automation upskill plan regarding how to verify the achievement of a capability - Yudi & Yao. Done 
+* Updated automation upskill plan regarding how to verify the achievement of a capability - Yudi & Yao 
 * Taoli shared using Velocity tool and Spring framework for API automation testing.
 * Qianqian&XiaoZhang volunteer to be the workshop organiser 
 * [Action]Finalise the automation upskill plan for UI automation part and send out to community - Yudi & Yao
