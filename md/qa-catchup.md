@@ -8,6 +8,17 @@ controls: true
 
 --
 
+### 21 March 2016
+* Updated automation upskill plan regarding how to verify the achievement of a capability - Yudi & Yao. Done 
+* Taoli shared using Velocity tool and Spring framework for API automation testing.
+* Qianqian&XiaoZhang volunteer to be the workshop organiser 
+* [Action]Finalise the automation upskill plan for UI automation part and send out to community - Yudi & Yao
+* [Action]Create jinshuju investigation for QA workshop 2016 survey - Yao
+* [Action]Taoli will upload the code in git - Taoli
+
+
+
+
 ### 19 March 2015
 
 * Seek for pair of QA Community - Xu Xiao & Hu Yao. Done
