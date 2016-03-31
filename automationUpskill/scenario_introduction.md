@@ -3,10 +3,10 @@
 ## *Web Example*: Buy a policy on Suncorp website
 
 #### Check Points:
-	1. Lunch the browser
-	2. Switch to the targeted URL - [suncorp](http://www.suncorp.com.au/insurance)
-	3. Act on kinds of web elements - Button,Radiobutton,Textbox and Selection list … to finish the purchase journey
-	4. Generate a pretty report to show your test result (Better to have captures) 
+1. Lunch the browser
+2. Switch to the targeted URL - [suncorp](http://www.suncorp.com.au/insurance)
+3. Act on kinds of web elements - Button,Radiobutton,Textbox and Selection list … to finish the purchase journey
+4. Generate a pretty report to show your test result (Better to have captures) 
 
 #### You may met:
 	* How to deal with multiple browser windows popup?
