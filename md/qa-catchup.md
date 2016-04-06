@@ -15,7 +15,7 @@ controls: true
 * ZhangXiao updated the workshop trello list and discuss with team about current plan.
 * [Action]Pick up one or two scenarios to practice UI automation testing - everyone.
 * [Action]Add all of QAs into trello - ZhangXiao.
-* [Action]Spike the workshop test environment set up for both Linux and Windows, and output a doc for detail informations about how to set up it and how long it will take - Yadi.
+* [Action]Spike the workshop test environment set up for both MacOS and Windows, and output a doc for detail informations about how to set up it and how long it will take - Yadi.
 * [Action]Set up workshop service environment - XuXiao & FuBiao.
 * [Action]Pick up cards on trello for the workshop and GO! - everyone.
 
