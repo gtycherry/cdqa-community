@@ -1,0 +1,5 @@
+path:
+  JDapi: http://gturnquist-quoters.cfapps.io/api/random
+  TBapi: http://gturnquist-quoters.cfapps.io/api/random
+  JDlocal: /Users/xiaoxu/workspace/WORKSHOP-MAY/model-server/src/main/resources/JDdata.json
+  TBlocal: /Users/xiaoxu/workspace/WORKSHOP-MAY/model-server/src/main/resources/TBdata.json
