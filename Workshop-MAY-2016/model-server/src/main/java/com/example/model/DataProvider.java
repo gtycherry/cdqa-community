@@ -48,7 +48,7 @@ abstract class DataProvider {
             model = objNode.get("model").toString();
             price = objNode.get("price").asDouble();
 
-            if (model.contains(in_model) && PriceIsCheaperThanLastOne(price, data.getPrice())) {
+            if (model.toUpperCase().contains(in_model.toUpperCase()) && PriceIsCheaperThanLastOne(price, data.getPrice())) {
                 data.setBrand(brand);
                 data.setModel(model);
                 data.setPrice(price);

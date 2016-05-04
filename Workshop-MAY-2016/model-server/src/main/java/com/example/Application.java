@@ -45,6 +45,21 @@ public class Application implements EmbeddedServletContainerCustomizer {
         return sb.toString();
     }
 
+    @RequestMapping("/api/mod={mod}")
+    public String ShowAPIData(@PathVariable("mod") String mod) {
+        Data jd_da = apiDataProvider.PickupItemViaModel(mod, SourceEnum.JD);
+        Data tb_da = apiDataProvider.PickupItemViaModel(mod, SourceEnum.TB);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("{\"Data\":[");
+        sb = BuildData(sb, jd_da);
+        sb.append(",");
+        sb = BuildData(sb, tb_da);
+        sb.append("]}");
+        return sb.toString();
+    }
+
+
     private StringBuilder BuildData(StringBuilder builder, Data data) {
 //        builder = new StringBuilder();
         builder.append("{");

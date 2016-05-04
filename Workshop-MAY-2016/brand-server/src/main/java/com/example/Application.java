@@ -45,6 +45,21 @@ public class Application implements EmbeddedServletContainerCustomizer {
         return sb.toString();
     }
 
+    @RequestMapping("/api/brand={brand}")
+    public String ShowAPIData(@PathVariable("brand") String brand) {
+        Data jd_da = apiDataProvider.PickupItemViaBrand(brand, SourceEnum.JD);
+        Data tb_da = apiDataProvider.PickupItemViaBrand(brand, SourceEnum.TB);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("{\"Data\":[");
+        sb = BuildData(sb, jd_da);
+        sb.append(",");
+        sb = BuildData(sb, tb_da);
+        sb.append("]}");
+        return sb.toString();
+    }
+
+
     private StringBuilder BuildData(StringBuilder builder, Data data) {
 //        builder = new StringBuilder();
         builder.append("{");
