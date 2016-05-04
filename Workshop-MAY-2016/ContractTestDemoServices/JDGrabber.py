@@ -106,7 +106,7 @@ jdgrabber = JDGrabber()
 @app.route('/products')
 def products():
     message = jdgrabber.get_products_json()
-    return jsonify(provider='淘宝',
+    return jsonify(provider='京东',
                    products=jdgrabber.get_products_dictionaries())
 
 
@@ -122,4 +122,4 @@ if __name__ == '__main__':
     # products_json = jdgrabber.get_products_json()
     # print products_json
 
-    app.run(host='localhost', port=5001, debug=True)
+    app.run(host='localhost', port=6001, debug=True)

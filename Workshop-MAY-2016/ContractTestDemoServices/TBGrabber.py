@@ -78,7 +78,7 @@ tbgrabber = TBGrabber()
 
 @app.route('/products')
 def products():
-    return jsonify(provider='京东',
+    return jsonify(provider='淘宝',
                    products=tbgrabber.get_products_dictionaries())
 
 if __name__ == '__main__':
@@ -88,4 +88,4 @@ if __name__ == '__main__':
     # for each in all_products:
     #     print each
 
-    app.run(host='localhost', port=5002, debug=True)
+    app.run(host='localhost', port=6002, debug=True)
