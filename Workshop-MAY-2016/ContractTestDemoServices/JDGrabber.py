@@ -139,4 +139,4 @@ if __name__ == '__main__':
     # products_json = jdgrabber.get_products_json()
     # print products_json
 
-    app.run(host='localhost', port=5001, debug=True)
+    app.run(host='localhost', port=6001, debug=True)

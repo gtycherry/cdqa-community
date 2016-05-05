@@ -104,4 +104,4 @@ if __name__ == '__main__':
     # for each in all_products:
     #     print each
 
-    app.run(host='localhost', port=5002, debug=True)
+    app.run(host='localhost', port=6002, debug=True)
