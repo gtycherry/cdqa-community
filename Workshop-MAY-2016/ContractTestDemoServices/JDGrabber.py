@@ -4,10 +4,11 @@ from bs4 import BeautifulSoup
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-import urllib, re, json
+import urllib, re, json, os
 
 class JDGrabber(object):
     url = r'http://search.jd.com/Search?keyword=笔记本电脑&enc=utf-8&wq=笔记本电脑&pvid=zwlamomi.33xcia'
+    dump = r'jd.html'
 
     def __init__(self):
         pass
@@ -60,10 +61,26 @@ class JDGrabber(object):
 
         return price, brand, model
 
-    def get_products(self):
+    def _dump_html(self, content):
+        ro = open(self.dump, 'w')
+        ro.write(content)
+        ro.close()
+
+    def _load_html(self):
+        ro = open(self.dump, 'r')
+        html = ro.read()
+        ro.close()
+
+        return html
+
+    def get_products(self, use_dump=False):
         all_products = []
 
-        r = urllib.urlopen(self.url).read()
+        if use_dump and os.path.exists(self.dump):
+            r = self._load_html()
+        else:
+            r = urllib.urlopen(self.url).read()
+            self._dump_html(r)
 
         soup = BeautifulSoup(r, 'html5lib')
         tag_all_products = soup.select('.gl-warp')[0]
@@ -76,21 +93,21 @@ class JDGrabber(object):
 
         return all_products
 
-    def get_products_dictionaries(self):
+    def get_products_dictionaries(self, use_dump=False):
         dictionaries = []
 
-        for each in self.get_products():
+        for each in self.get_products(use_dump):
             brand, model, price = each.split(':')
             price = round(float(price), 3)
             dictionaries.append({"brand":brand, "model":model, "price":price})
 
         return dictionaries
 
-    def get_products_json(self):
+    def get_products_json(self, use_dump=False):
         json_ = {"provider":"Jingdong"}
 
         products = []
-        for each in self.get_products():
+        for each in self.get_products(use_dump):
             brand, model, price = each.split(':')
             products.append({"brand":brand, "model":model, "price":price})
 
@@ -105,9 +122,9 @@ jdgrabber = JDGrabber()
 
 @app.route('/products')
 def products():
-    message = jdgrabber.get_products_json()
+    message = jdgrabber.get_products_json(use_dump=True)
     return jsonify(provider='京东',
-                   products=jdgrabber.get_products_dictionaries())
+                   products=jdgrabber.get_products_dictionaries(use_dump=True))
 
 
 
@@ -122,4 +139,4 @@ if __name__ == '__main__':
     # products_json = jdgrabber.get_products_json()
     # print products_json
 
-    app.run(host='localhost', port=6001, debug=True)
+    app.run(host='localhost', port=5001, debug=True)
