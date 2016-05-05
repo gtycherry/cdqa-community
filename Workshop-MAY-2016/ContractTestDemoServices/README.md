@@ -1,4 +1,5 @@
 # 快速启动
+请移步PythonENV去安装依赖环境先。
 
 ## 第一步： 进入到目录中
       cd ContractTestDemoServices
