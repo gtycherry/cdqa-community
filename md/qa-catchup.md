@@ -8,6 +8,29 @@ controls: true
 
 --
 
+### 5 April 2016
+* XuXiao shared the Accessibility testing.
+* YuDi updated the Acceptance Criteria of UI automation testing.
+* CuiLiang shared two demos about UI automation testing for both web and mobile.
+* ZhangXiao updated the workshop trello list and discuss with team about current plan.
+* [Action]Pick up one or two scenarios to practice UI automation testing - everyone.
+* [Action]Add all of QAs into trello - ZhangXiao.
+* [Action]Spike the workshop test environment set up for both MacOS and Windows, and output a doc for detail informations about how to set up it and how long it will take - Yadi.
+* [Action]Set up workshop service environment - XuXiao & FuBiao.
+* [Action]Pick up cards on trello for the workshop and GO! - everyone.
+
+--
+
+### 21 March 2016
+* Updated automation upskill plan regarding how to verify the achievement of a capability - Yudi & Yao 
+* Taoli shared using Velocity tool and Spring framework for API automation testing.
+* Qianqian&XiaoZhang volunteer to be the workshop organiser 
+* [Action]Finalise the automation upskill plan for UI automation part and send out to community - Yudi & Yao
+* [Action]Create jinshuju investigation for QA workshop 2016 survey - Yao
+* [Action]Taoli will upload the code in git - Taoli
+
+--
+
 ### 19 March 2015
 
 * Seek for pair of QA Community - Xu Xiao & Hu Yao. Done
@@ -40,6 +63,8 @@ controls: true
 * Reading club
 	- Zhangying will send Jinshujv to make sure reading time and more details
 
+--
+
 ### 28 May 2015
 
 * Discussed about the QA capability uplifting PPT (can be found under Presentation)
@@ -47,6 +72,8 @@ controls: true
   - Draw the capability spider graph (owner: all)
   - Set the 3 month learning goal and display the goal in spider graph (owner: all)
   - Review the spider graph and 3 month goal in next catch up meeting
+
+--
 
 ### 11 June 2015
 
@@ -58,3 +85,15 @@ controls: true
   - Fu Biao will pair with Liu Ran to prepare the BQConf topic (Test model in CI)
   - Yao Hu will prepare the backup topic (RST)
   - Bowen will prepare the backup topic (Automation in Quality Assurance system)
+
+--
+
+### 23 December 2015
+
+* Discussed about Catchup optimization
+* Action item
+  - Catchup will be held every two weeks.
+  - Catchup will take one hour every time.
+  - Reading sharing is merged with Catchup, sharing owner ordered by Zhangying's mail.
+  - Before catchup, owner send invitation with agenda.
+  - Catchup contents: Reading sharing/ Rising puzzle / Gossip / Community uplifting.
